@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding :0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: #c01344;
+    height: 3%;
+    display: flex;
+    align-items: center;
+}
+.header>div{
+    /* background-color: greenyellow; */
+    width: fit-content;
+    color: white;
+    font-size: 12px;
+    /* align-self: center; */
+}
+#bwq{
+    /* background-color: chartreuse; */
+    margin-left: 8%;
+    margin-right: 47%;
+}
+
+#someDivs{
+    /* background-color: blue; */
+    height: 100%;
+    width: 26%;
+    display: flex;
+}
+
+#someDivs>div{
+    /* background-color: blueviolet; */
+    height: 100%;
+    width: fit-content;
+    margin-right: 2%;
+    margin-left: 1%;
+    display: flex;
+    align-items: center;
+   
+}
+
+.download i{
+    font-size: 25px;
+    margin-right: 5px;
+}
+

@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.subHeader{
+    background-color: #e40046;
+    height: 7%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.snap-logo{
+    margin-left: 3%;
+    margin-right: 4%;
+}
+
+.searchInp{
+    /* background-color: aqua; */
+    height: 60%;
+    width: 45%;
+    position: relative;
+    margin-right: 9%;
+    /* padding: 0; */
+}
+
+.searchInp input{
+    /* background-color: coral; */
+    height: 100%;
+    width: 85%;
+    padding-left: 3%;
+    outline-style: none;
+    border-style: none;
+    position: absolute;
+    top: 0;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.search-btn{
+    background-color: black;
+    height: 100%;
+    width: 15%; 
+    position: absolute;
+    left: 85%;
+    color: white;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    /* border-style: none; */
+}
+
+.search-btn i{
+    /* color: white; */
+    margin-right: 3%;
+}
+
+.cart{
+    /* background-color: blueviolet; */
+    height: 100%;
+    width: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-left: 0.5px solid #c72150;
+    border-right: 0.5px solid #c72150;
+}
+
+.cart i{
+    margin-left: 3%;
+    font-size: 150%;
+}
+
+.cart>div{
+    background-color: blue;
+    height: 35%;
+    width: 15%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 45px;
+}
+
+.sign-in{
+    /* background-color: blueviolet; */
+    height: 100%;
+    width: 10%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-in i{
+    margin-left: 15%;
+    font-size: 30px;
+}
+.products{
+    /* background-color: aquamarine; */
+    height: 50%;
+    width: 10%;
+    margin-left: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 4%; */
+}
+.watch{
+    color: white;
+    margin-right: 10%;
+    font-size: 17px;
+    height: 80%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: white solid 1px;
+    text-decoration: none;
+}
+
+.shoe{
+    color: white;
+    margin-right: 10%;
+    font-size: 17px;
+    height: 80%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: white solid 1px;
+    text-decoration: none;
+
+}
+
+.items{
+    /* background-color: chocolate; */
+    /* height: 100%; */
+    border-style: none;
+    outline-style: none;
+}

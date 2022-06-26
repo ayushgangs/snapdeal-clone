@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer{
+    /* background-color: black; */
+    color: black;
+    font-size: 13px;
+    font-family: "font-regular";
+    height: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around; 
+    
+}
+
+.footer-cont{
+    /* background-color: coral; */
+    width: fit-content;
+    /* margin-left:15% ; */
+    margin-right: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.bharat{
+    /* background-color: coral; */
+    width: 6%;
+    display: flex;
+    align-items: center;
+    /* margin-right: 1%; */
+}
+
+.bharat i{
+    margin-left: 7%;
+    color: red;
+    font-size: 14px;
+}

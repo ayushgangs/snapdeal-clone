@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content{
+    background-color: aqua;
+    height: 85%;
+    width: 100%;
+    padding-top: 0.5%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    
+    
+}
+
+.card{
+    background-color: red;
+    height: 60%;
+    width: 15%;
+    
+    margin-left: 0.5%;
+    margin-bottom: 0.5%;
+   
+}
+
+.prod-img{
+    background-color: greenyellow;
+    height: 50%;
+    width: 100%;
+    
+}
+.prod-img img{
+    height: 100%;
+    width: 100%;
+}
+
+.card-cont{
+    background-color: burlywood;
+    
+    height: 50%;
+    width: 100%;
+    
+    
+}
+.prod-name{
+    background-color: greenyellow;
+    height: 20%;
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.price{
+    /* background-color: brown; */
+    width: 100%;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+    
+}
+
+.stock{
+    /* background-color: blueviolet; */
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+
+.addCart{
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: center;
+    height: 15%;
+    width: 100%;
+}
+
+.addCart-btn{
+    background-color: blueviolet;
+    color: white;
+    width: 55%;
+    font-size: 15px;
+    border-radius: 30px;
+}
